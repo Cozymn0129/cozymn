@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Spoon-Knife</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <title>Method for Adding CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        p {
+            width: 1900px;
+            text-align: left;
+            color: white;
+            background-color: green;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif, serif;
+        }
+    </style>
 </head>
 
 <body>
+    <div>Style me via the external method!</div>
 
-<img src="forkit.gif" id="octocat" alt="" />
+    <p>I would like to be styled with the internal method, please.</p>
 
-<!-- Feel free to change this text here -->
-<p>
-  Fork me? Fork you, @octocat!
-</p>
+    <button
+        style="display: block; width: 120px; margin: 2px; color: black; background: orange; font-size: 18px; font-family: 'Times New Roman', Times, serif; border-width: 2px; border-color: lightgrey;">
+        Inline Method
+    </button>
 
 </body>
+
 </html>
