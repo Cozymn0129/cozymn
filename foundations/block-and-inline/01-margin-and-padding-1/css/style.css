@@ -1,0 +1,31 @@
+body {
+    max-width: 600px;
+}
+
+div {
+    border: 3px solid;
+}
+
+.one,
+.three {
+    padding: 32px;
+}
+
+.one {
+    margin: 12px 80px;
+    border-color: blue;
+    background: pink;
+}
+
+.two {
+    margin: 12px 70px 48px 70px;
+    border-color: purple;
+    background: lightblue;
+}
+
+.three {
+    margin: 48px 70px 0px 320px;
+    border-color: brown;
+    max-width: 200px;
+    background-color: peachpuff;
+}
